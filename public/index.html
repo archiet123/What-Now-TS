@@ -7,6 +7,7 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <script src="/dist/index.js" type="module"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,11 +24,11 @@
       </div>
 
       <div class="LoginContainer" id="Secondary">
-        <form>
+        <form id="form">
           <input
             class="input"
             type="text"
-            id="fname"
+            id="username"
             name="fname"
             placeholder="Name"
           />
@@ -35,7 +36,7 @@
           <input
             class="input"
             type="password"
-            id="lname"
+            id="password"
             name="lname"
             placeholder="Password"
           />
@@ -44,19 +45,23 @@
             class="input SubmitButton"
             type="submit"
             value="Login"
-            id="Tertiary"
+            id="Tertiary SubmitButton"
           />
         </form>
       </div>
       <br /><br /><br />
-      <script src="./renderer.js"></script>
-      <div class="test"></div>
     </div>
 
+    <!-- <div class="test">
+      <script src="/dist/Functions.js"></script>
+      <button onclick="printHello()" id="test" class="test">test</button>
+    </div> -->
+
     <div class="StyleToggleContainer">
+      <li id="list" class="li"></li>
       <!-- Rectangular switch -->
       <label class="switch">
-        <script src="renderer.js"></script>
+        <script src="/dist/Functions.js"></script>
         <input type="checkbox" id="ColourToggle" onchange="ColourSwitch()" />
         <span class="slider"></span>
       </label>

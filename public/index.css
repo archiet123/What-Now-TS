@@ -170,7 +170,12 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-.test{
-color: white;
+
+.login{
+  color: black;
+}
+
+#list{
+  list-style: none;
 }
 
