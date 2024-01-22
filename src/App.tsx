@@ -1,25 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './input.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <html className='h-screen bg-gradient-to-b 
+  from-green-200 to-green-500'>
+    <body className='content-center h-dvh'>
+      <p className='text-purple-500 font-bold text-center h-2/4'>PURPLE</p>
+    </body>
+  </html>
   );
 }
 
